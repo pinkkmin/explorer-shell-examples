@@ -40,8 +40,8 @@ regsvr32 -U overlayicons-x64.dll
 
 ## Demo
 
-![](C:\Users\HP\Desktop\examples\explorer-shell-examples\docs\.context-menu-windows.assets\2022-12-14-09-06-17-image.png)
+![](docs\.context-menu-windows.assets\2022-12-14-09-06-17-image.png)
 
-![](C:\Users\HP\Desktop\examples\explorer-shell-examples\docs\.context-menu-windows.assets\2022-12-14-14-54-00-image.png)
+![](docs\.context-menu-windows.assets\2022-12-14-14-54-00-image.png)
 
-![](C:\Users\HP\Desktop\examples\explorer-shell-examples\docs\.windows-shell-overlayicons.assets\2022-12-16-17-17-37-image.png)
+![](docs\.windows-shell-overlayicons.assets\2022-12-16-17-17-37-image.png)
