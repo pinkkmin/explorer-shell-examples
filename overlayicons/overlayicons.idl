@@ -1,0 +1,36 @@
+﻿// overlayicons.idl: overlayicons 的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 生成类型库(overlayicons.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(79f9e828-4ecf-4ec2-a7fe-9a898268a07d),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface IDemoShellOverlayIcon : IDispatch
+{
+};
+[
+	uuid(f097393c-82c4-421a-9ac3-85bd20b57475),
+	version(1.0),
+]
+library overlayiconsLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(c170f8ec-f829-42e9-bf85-6d9680d88313)
+	]
+	coclass DemoShellOverlayIcon
+	{
+		[default] interface IDemoShellOverlayIcon;
+	};
+};
+
+import "shobjidl.idl";

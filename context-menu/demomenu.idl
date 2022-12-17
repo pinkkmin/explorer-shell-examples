@@ -1,0 +1,36 @@
+﻿// demo-menu.idl: demo-menu 的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 生成类型库(demomenu.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(3da7a03f-4d27-48ab-a11d-81e14ac2d0b2),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface IDemoContextMenu : IDispatch
+{
+};
+[
+	uuid(ff630319-bc87-43a5-83b7-91b5ca1b5628),
+	version(1.0),
+]
+library demomenuLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(424b509a-d79b-4eab-bf66-5bf5acf661f3)
+	]
+	coclass DemoContextMenu
+	{
+		[default] interface IDemoContextMenu;
+	};
+};
+
+import "shobjidl.idl";
