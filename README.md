@@ -40,7 +40,7 @@ regsvr32 -U overlayicons-x64.dll
 
 ## Demo
 
-![](docs\.context-menu-windows.assets\2022-12-14-09-06-17-image.png)
+![](.\docs\.context-menu-windows.assets\2022-12-14-09-06-17-image.png)
 
 ![](docs\.context-menu-windows.assets\2022-12-14-14-54-00-image.png)
 
